@@ -1,5 +1,7 @@
 package CompetitionProgramming;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.*;
 
 public class UVA408 {
@@ -8,9 +10,10 @@ public class UVA408 {
 	static int dc[] = {0, 1, 0, -1, 1, -1, 1, -1};
 	static char[][] grid = new char[99][99];
 	
-	public static void main(String[] args){
+	public static void main(String[] args) throws FileNotFoundException{
 
-		Scanner s = new Scanner(System.in);
+		FileReader in = new FileReader("CompetitionProgramming/UVA401.input");
+		Scanner s = new Scanner(in);
 		int cases = s.nextInt();
 		s.nextLine(); s.nextLine();
 
