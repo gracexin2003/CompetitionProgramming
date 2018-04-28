@@ -1,4 +1,4 @@
-package competetiveProgramming;
+package CompetitionProgramming;
 
 import java.util.*;
 
