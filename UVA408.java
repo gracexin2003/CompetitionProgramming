@@ -12,7 +12,7 @@ public class UVA408 {
 	
 	public static void main(String[] args) throws FileNotFoundException{
 
-		FileReader in = new FileReader("CompetitionProgramming/UVA401.input");
+		FileReader in = new FileReader("CompetitionProgramming/UVA408.input");
 		Scanner s = new Scanner(in);
 		int cases = s.nextInt();
 		s.nextLine(); s.nextLine();
